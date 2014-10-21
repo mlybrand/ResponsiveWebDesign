@@ -4,17 +4,18 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace LemonadeTax.Controllers
-{
-    public class HomeController : Controller
-    {
-        //
-        // GET: /Home/
+namespace LemonadeTax.Controllers {
+   public class HomeController : Controller {
+      //
+      // GET: /Home/
 
-        public ActionResult Index()
-        {
-            return View();
-        }
+      public ActionResult NineSixty() {
+         return View();
+      }
 
-    }
+      public ActionResult Skeleton() {
+         return View();
+      }
+
+   }
 }

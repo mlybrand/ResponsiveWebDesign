@@ -1,0 +1,15 @@
+﻿* {
+   box-sizing: border-box;
+}
+
+ul.menu {
+   list-style: none;
+   margin-right: 0;
+}
+
+ul.menu li {
+   display: inline;
+   margin-left: 0;
+   margin-right: 30px;
+}
+

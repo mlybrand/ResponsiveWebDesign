@@ -118,6 +118,14 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="css\960\960.css" />
+    <Content Include="css\960\reset.css" />
+    <Content Include="css\960\styles.css" />
+    <Content Include="css\960\text.css" />
+    <Content Include="css\skeleton\base.css" />
+    <Content Include="css\skeleton\layout.css" />
+    <Content Include="css\skeleton\skeleton.css" />
+    <Content Include="css\skeleton\styles.css" />
     <Content Include="Global.asax" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
@@ -136,7 +144,10 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Views\Home\Index.cshtml" />
+    <Content Include="Views\Home\NineSixty.cshtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Home\Skeleton.cshtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
